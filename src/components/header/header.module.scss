@@ -1,0 +1,57 @@
+.header{
+    background-color: white;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 22px;
+    &__text{
+        font-size: 20px;
+        font-weight: 500
+    }
+    &__buttons-signUp{
+color: #52C41A;
+border-color: #52C41A;
+width: 100px;
+    height: 50px;
+    font-size: 18px;
+    }
+    &__buttons-signIn{
+        width: 100px;
+    height: 50px;
+    margin-right: 19px;
+    font-size: 18px;
+    }
+    &__authorization{
+        display: flex;
+        column-gap: 27px;
+    }
+    &__user{
+        display: flex;
+        align-items: center;
+    }
+    &__image{
+        width: 40px;
+        margin-left: 13px;
+        clip-path: circle();
+        object-fit: cover;
+    }
+    &__user-button{
+        border: 1px solid #52C41A;
+        color: #52C41A;
+        margin-right: 27px;
+    }
+    &__logout{
+        height: 49px;
+        width: 109px;
+    }
+    &__profile{
+        display: flex;
+    }
+    &__link{
+        text-decoration: none;
+    }
+    &__link-profile{
+        text-decoration: none;
+    }
+}

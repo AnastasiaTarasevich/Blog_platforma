@@ -1,0 +1,171 @@
+.article{
+    background-color: white;
+    list-style: none;
+    margin: 26px 0px;
+    padding: 15px;
+    border-radius: 2px;
+    box-shadow: 0px 0px 7px 2px rgba(34, 60, 80, 0.2);
+    max-width: 938px;
+    &__info{
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+    &__info-right{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    &__info-right-inner{
+        display: flex;
+        align-items: center;
+    }
+    &__info-left{
+        display: flex;
+        align-items: center;
+    }
+    &__info-left-inner{
+        display: flex;
+        align-items: end;
+        flex-direction: column;
+    }
+    &__info-left-item{
+        display: flex;
+        align-items: end;
+    }
+    &__container-profile{
+        display: flex;
+    flex-direction: column;
+    align-items: end;
+    }
+    &__info-inner-item{
+        display: flex;
+    align-items: center;
+    flex-direction: column;
+    }
+    &__info-title{
+        font-size: 20px;
+        color: #1890FF;
+        line-height: 1.5;
+        margin: 0;
+        max-width: 475px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-height: 30px;
+    white-space: nowrap;
+    padding-right: 12px;
+    }
+    &__info-name{
+        font-size: 20px;
+        overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 170px;
+    }
+    &__info-date{
+opacity: 0.5;
+    }
+    &__info-img{
+        width: 40px;
+    height: 40px;
+    clip-path: circle();
+    margin-left: 12px;
+    }
+    &__tag{
+        display: inline-block;
+    margin: 5px 4px 10px 0px;
+    background-color: white;
+    border: 1px solid;
+    text-overflow: ellipsis;
+    max-width: 100px;
+    overflow: hidden;
+    }
+    &__tag-inner{
+        display: inline-block;
+        margin: 5px 4px 10px 0px;
+        background-color: white;
+        border: 1px solid;
+        max-width: 650px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    }
+
+    &__info-left-text{
+        width: 840px;
+    line-height: 1.7;
+    opacity: 0.75;
+    margin: 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    overflow-wrap: break-word;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    line-height: 20px;
+    }
+    &__inner-des{
+        width: 740px;
+        line-height: 1.7;
+        opacity: 0.75;
+        margin: 0;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        display: -webkit-box;
+        overflow-wrap: break-word;
+        -webkit-box-orient: vertical;
+        line-height: 20px;
+    }
+    &__button{
+        width: 16px;
+        height: 16px;
+        background: url('./heart.svg') no-repeat 50% 50%;
+        border:none;
+        margin: 0px 5px 0px 0px;
+    }
+    &__favoriate{
+        width: 16px;
+        height: 16px;
+        background: url('./heart.svg') no-repeat 50% 50%;
+        border:none;
+        margin: 0px 5px 0px 0px;
+        background: url('./heartreadysvg.svg') no-repeat 50% 50%;
+    }
+    &__like{
+        display: flex;
+        align-items: center;
+    }
+    &__info-markdown{
+background-color: white;
+padding-top: 5px;
+max-width: 890px;
+overflow: hidden;
+overflow-wrap: break-word;
+    }
+    &__info-name{
+        margin: 0;
+    }
+    &__info-date{
+        margin: 5px 0px 0px 0px;
+    }
+    &__link{
+        text-decoration: none;
+    }
+    &__actions{
+        display: flex;
+        padding-top: 14px;
+    }
+    &__container{
+        display: flex;
+        justify-content: space-between;
+    }
+    &__button-color{
+        color: #52C41A;
+        border-color: #52C41A;
+        margin-left: 12px;
+    }
+    &__alert{
+margin-top: 20px
+    }
+    &__spin{
+margin-top:20px
+    }
+}

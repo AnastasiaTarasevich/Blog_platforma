@@ -1,0 +1,21 @@
+.pagination{
+    display: flex;
+    justify-content: center;
+    border-color: black;
+    .ant-pagination-item {
+      border: none; 
+  
+      a {
+       background-color: #EBEEF3;
+      }
+      
+    }
+    .ant-pagination-item-active {
+    
+        a {
+         background-color: #1890FF;
+         border-radius: 4px;
+         color: white;
+        }
+  }
+}
